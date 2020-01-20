@@ -1,24 +1,10 @@
-# vue03
+## vue面试题
+---
+#### 1.20 第一题：
+#### v-if和v-for哪个优先级高？如果两个同时出现，应该怎么优化得到更好的性能？
+> v-for 比 v-if的优先级高<br/>
+> 优化：<br/>
+> 1、 处理data- computed过滤数据<br/>
+> 2、 处理模板- 给v-for 包一层Dom节点， 在父节点上使用v-if
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
